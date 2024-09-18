@@ -1,0 +1,98 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(https://www.w3schools.com/w3images/mountains.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(61, 14, 248);
+    font-size: 70px;
+  
+
+}
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    border-width:5px 5px 5px 5px;
+    border-color:blue;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba (17,21,10);
+    padding: 20px;
+}
+
+fieldset {
+    border: 2px solid rgba(17,21,10);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+legend {
+    font-weight: bold;
+    text-align: left;
+    color:blue;
+    max-width: fit-content;
+    
+}
+label  {
+    display: block;
+    margin-bottom: 10px;
+    color:blue;
+    max-width: fit-content;
+ 
+    box-shadow: rgb(13, 13, 12);
+}
+input[type="text"],
+select,
+textarea {
+  width: 90%;
+  padding: 14px;
+  margin: 8px 0;
+  /* Other styling properties */
+}
+
+/* Added to prevent autofocus on the file input */
+input[type="text"]:invalid {
+    border: 2px solid rgb(16, 58, 244);
+  }
+  
+
+
+button {
+    background: linear-gradient(135deg, #0757eb, #08c7fc);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+/* No change to button hover effects */
+button:hover {
+    background: linear-gradient(135deg, #af3204, #bed816);
+    transform: scale(1.02);
+}
+/* src/App.css */
+
+.custom-button {
+    background: linear-gradient(135deg, #0757eb, #08c7fc);
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* Add a subtle hover effect */
+  }
+  
+  .custom-button:hover {
+    transform: scale(1.02);
+  }
+  
